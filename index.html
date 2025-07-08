@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 11: Constructores de Ciudades Inteligentes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 11:Constructores de Ciudades Inteligentes</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Analizar el impacto de la IA en el acceso y la equidad.</li>
+                                        <li>Introducir el concepto de interseccionalidad (edad, origen, discapacidad).</li>
+                                        <li>Comprender cómo los datos afectan el funcionamiento justo de una IA.</li>
+                                        <li>Reconocer los impactos de la IA desde una mirada inclusiva.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Tres "Reportes de Falla" identificando exclusiones en una invención de IA, escritos en el cuaderno.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuadernos y colores.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para fomentar la conexión y la inclusión.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 2. Activación: Saludo Secreto en Parejas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Atención, Constructores! 🏙️ ¡A sus mesas de diseño! Para activar nuestra mente colaborativa, vamos a crear un Saludo Secreto en Parejas. Tienen 30 segundos para inventar un saludo que represente la palabra 'INCLUIR'. ¡Usen sus manos, codos, lo que sea! ¡Adelante!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>En parejas, crean y practican su saludo. Algunas parejas lo muestran al grupo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Veo saludos increíbles! 🤝 ¡Esa idea de que ambas partes son necesarias para que el saludo funcione es justo la energía que necesitamos! Para construir algo genial, ¡hay que incluir todas las piezas!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 3. Recuerdo Relámpago: La Fórmula Maestra.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genios! Antes de poner el primer ladrillo, recordemos nuestra fórmula de la misión pasada: [ DATOS VARIADOS ] = IA JUSTA. Pero nos dejó una pregunta clave: Si ya sabemos que la IA necesita datos justos, ¿quién tiene la responsabilidad de asegurarse de que eso suceda? 🤔</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>En parejas, discuten la pregunta. El maestro conecta sus respuestas con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Discutan con su compañero de obra! (Pausa). ¡Escucho 'los programadores', 'nosotros', 'los que la inventan'! ¡Exacto! ¡La responsabilidad es NUESTRA, de los creadores! Hoy no solo seremos chefs, ¡seremos los arquitectos y constructores de una IA justa!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de diseño urbano inclusivo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyectar Diapositiva 4. Objetivos de la Misión. (Imagen de una ciudad futurista con rampas automáticas para sillas de ruedas, bancas que se ajustan en altura y señales en múltiples idiomas y braille).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en CONSTRUCTORES DE CIUDADES INTELIGENTES. Una ciudad no es 'inteligente' por tener robots, sino por ser inteligente para TODOS sus ciudadanos. Hoy aprenderemos a diseñar pensando en cada persona, sin importar su edad, de dónde venga o cómo se mueva.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los estudiantes escriben o dibujan su "I Can Statement" y lo comparten.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Todo constructor tiene su obra maestra. La mía es: 'Yo puedo diseñar un cruce de peatones que sea seguro para un niño y para una persona ciega'. Ahora ustedes, en su plano, completen: 'Hoy mi diseño pensará en...'. ¡Compártanlo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar curiosidad con una historia sobre una IA que falla por no considerar la interseccionalidad.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 5. Brain Boost: El Caso de la Puerta Súper-Inteligente.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Imaginen que diseñamos una puerta automática para la entrada de un centro comunitario. La entrenamos con miles de fotos de 'personas' para que se abra sola. ¡Funciona perfecto con los adultos que la prueban!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 6. La Puerta que Discrimina. (Imagen de la puerta sin abrirse para un niño pequeño, para una persona en silla de ruedas y para alguien con un perro guía).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Pero un día, llega un niño y la puerta no se abre (es muy bajo). Llega una persona en silla de ruedas y la puerta no se abre (ve la silla, no a la persona). Llega una persona ciega con su perro guía y la puerta no se abre (se confunde con el perro). La puerta no es 'malvada'. ¿Cuál fue el error de los constructores al entrenarla?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conexión a la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Lo descifraron! ¡Sus datos de 'persona' no eran variados! Solo pensaron en un tipo de usuario. Un buen constructor no solo piensa en el caso fácil, ¡piensa en TODOS los casos! ¡Hoy vamos a ponernos las gafas de la inclusión para ver lo que otros no ven!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar el diseño inclusivo en un entorno gamificado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyectar Diapositiva 7. Gamer Express: El Diseñador de Parques y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de ir al simulador de diseño! Entren al Gamer Express y jueguen la misión 'Parque para Todos'. Tendrán que diseñar un parque de diversiones. Su objetivo: elegir atracciones y servicios para que los abuelitos, los bebés, los niños y las personas con diferentes necesidades ¡todos le den 5 estrellas!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto de análisis crítico, estableciendo el rol de "Inspectores de Calidad".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 8. Challenge: El Test de Estrés para la IA.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han demostrado ser diseñadores inclusivos! Ahora, la prueba más difícil. Se convertirán en Inspectores de Calidad. Su misión: encontrar las fallas en una invención de IA que parece... perfecta. 🧐</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 9. La Invención: El Traductor de Mascotas. (Imagen de una app que traduce ladridos y maullidos a palabras humanas).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Les presento el 'Mascota-Traductor 3000'. Un dispositivo que traduce lo que piensan tus perros y gatos para que puedas hablar con ellos. ¡Suena increíble! Pero... ¿es increíble para TODOS? Su trabajo es encontrar los 'puntos ciegos'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 5 minutos</h3>
+                            <p>En sus cuadernos, los equipos escriben 3 "reportes de falla" para la invención, pensando en diferentes tipos de personas y contextos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡A investigar, inspectores! En sus cuadernos, escriban al menos 3 'Reportes de Falla'. Piensen...<br>* ¿Qué pasaría con una persona que es sorda? ¿Cómo usaría el traductor?<br>* ¿Y si la mascota no es un perro o un gato, sino un pez o una tortuga?<br>* ¿Y si alguien es alérgico a los gatos y ahora 'escucha' al gato del vecino quejarse a través de la pared?<br> ¡Encuentren los problemas que los creadores no vieron!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 10. Reporte de Inspección.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! Equipo 'Detectives de Detalles', ¡compartan un reporte de falla! ¡Wow, no pensar en las personas sordas es un gran punto ciego! Equipo 'Cazadores de Errores', ¿qué otro problema encontraron? ¡El de las alergias es genial! ¡Demostraron que pensar en todos es un superpoder!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 11. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Son oficialmente los mejores Inspectores de IA del mundo! Han aprendido a ver más allá de lo evidente. Una última pregunta: ¿Cuál es la primera pregunta que un buen constructor DEBE hacerse?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 12. El Manifiesto del Constructor Justo. El maestro guía al grupo para crear el manifiesto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! ¿A quién le sirve esto? Para que esa pregunta sea el centro de todo lo que creen, nuestra Clave Secreta de hoy es el Manifiesto del Constructor Justo: <br>✨ Antes de construir... (pausa) <br>✨ mi primera pregunta es: (gesto de pregunta) <br>✨ ¿PARA QUIÉN ES? (brazos abiertos) <br>✨ Y mi respuesta es siempre:<br>✨ ¡PARA TODOS! ❤️</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 13. Cierre de la Misión. Repiten el manifiesto con gestos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a declarar nuestro manifiesto! ¡Con voz de constructores! 'Antes de construir...' (gesto de pensar). 'mi primera pregunta es...' (gesto de pregunta). '¿PARA QUIÉN ES?' (abren los brazos). '¡PARA TODOS!' (gran gesto de unión). ¡Genial! Guarden este manifiesto, porque nos deja una pregunta final: Si ya sabemos construir para todos, ¿cómo nos aseguramos de que nuestras creaciones no solo sean justas, sino que también cuiden nuestro planeta? 🌎 ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
